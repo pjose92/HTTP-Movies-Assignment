@@ -28,9 +28,6 @@ export default function UpdateMovie(props) {
           ...props.movies.filter(el => el.id !== movie.id),
           res.data,
         ]);
-        // axios
-        //   .get('http://localhost:5000/api/movies')
-        //   .then(res => props.setMovies(res.data));
         props.history.push(`/movies/${movie.id}`);
       })
       .catch(err => console.log(err));

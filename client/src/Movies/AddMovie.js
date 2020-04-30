@@ -34,7 +34,7 @@ export default function AddMovie(props) {
             type='text'
             name='title'
             onChange={handleChange}
-            placeholder='...title'
+            placeholder='Title'
             value={movie.title}
           />
         </label>
@@ -44,7 +44,7 @@ export default function AddMovie(props) {
             type='text'
             name='director'
             onChange={handleChange}
-            placeholder='...director'
+            placeholder='Director'
             value={movie.director}
           />
         </label>
@@ -54,7 +54,7 @@ export default function AddMovie(props) {
             type='text'
             name='metascore'
             onChange={handleChange}
-            placeholder='...metascore'
+            placeholder='Metascore'
             value={movie.metascore}
           />
         </label>
@@ -64,7 +64,7 @@ export default function AddMovie(props) {
             type='text'
             name='firststar'
             onChange={handleChangeArr}
-            placeholder='...first star'
+            placeholder='First Actor/Actress'
           />
         </label>
         <label>
@@ -73,7 +73,7 @@ export default function AddMovie(props) {
             type='text'
             name='secondstar'
             onChange={handleChangeArr}
-            placeholder='...second star'
+            placeholder='Second Actor/Actress'
           />
         </label>
         <label>
@@ -82,7 +82,7 @@ export default function AddMovie(props) {
             type='text'
             name='thirdstar'
             onChange={handleChangeArr}
-            placeholder='...third star'
+            placeholder='First Actor/Actress'
           />
         </label>
         <button className='button'>Add Movie</button>
