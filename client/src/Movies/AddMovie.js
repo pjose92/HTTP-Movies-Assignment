@@ -17,7 +17,7 @@ export default function AddMovie(props) {
     axios
       .post(`http://localhost:5000/api/movies/`, movie)
       .then(res => {
-        console.log(res);
+        console.log("jp: AddMovies.js line 20", res);
         props.setMovies(res.data);
         props.history.push('/');
       })
@@ -26,7 +26,7 @@ export default function AddMovie(props) {
 
   return (
     <div className='form'>
-      <h2>Add Movie</h2>
+      <h2>Add Movie!</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Title:

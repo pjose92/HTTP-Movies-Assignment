@@ -39,9 +39,6 @@ export default class Movie extends React.Component {
         this.props.setMovies(
           this.props.movies.filter(movie => movie.id !== res.data),
         );
-        // axios
-        //   .get('http://localhost:5000/api/movies')
-        //   .then(res => this.props.setMovies(res.data));
         this.props.history.push(`/`);
       })
       .catch(err => console.log(err.response));

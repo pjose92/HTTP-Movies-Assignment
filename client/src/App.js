@@ -30,7 +30,7 @@ const App = () => {
     <>
       <SavedList list={savedList} />
       <Link to="/add-movie">
-        <div className="button">Add Movie</div>
+        <div className="button-add">Add Movie</div>
       </Link>
 
       <Route 

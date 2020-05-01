@@ -99,6 +99,17 @@ label {
   align-self: center;
 }
 
+.button-add {
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  padding: 5px 10px;
+  background-color: #fff;
+  font-size: 1.8rem;
+  margin: 15px 50%;
+  align-self: center;
+  width: 10%;
+}
+
 .button:hover {
   background-color: rgb(238, 235, 235);
 }
